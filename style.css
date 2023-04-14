@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #00235B;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inputdiv {
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.inputdiv h1 {
+    font-family: 'Noto Sans', sans-serif;
+    margin-bottom: 5px;
+    color: whitesmoke;
+}
+
+.contentdiv {
+    background-color: white;
+    width: 480px;
+    height: 480px;
+    padding: 10px;
+    border: black solid 1px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+input {
+    height: 31px;
+    width: 450px;
+    font-size: 15px;
+    border: black solid 1px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+button {
+    height: 35px;
+    width: 45px;
+    font-size: 15px;
+    border: black solid 1px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.deleteButton {
+    height: 23px;
+    width: 50px;
+    color: whitesmoke;
+    background-color: red;
+    border: darkred solid 1px;
+    display: inline-block;
+    margin: 8px;
+    padding: 2px;
+    cursor: pointer;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.iDidButton {
+    height: 23px;
+    width: 50px;
+    color: whitesmoke;
+    background-color: green;
+    border: darkgreen solid 1px;
+    display: inline-block;
+    margin: 2px;
+    padding: 2px;
+    cursor: pointer;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.line {
+    text-decoration: line-through;
+}
